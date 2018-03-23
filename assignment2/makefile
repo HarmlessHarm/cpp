@@ -7,5 +7,5 @@ run: MyCompress.cpp
 clean:
 	rm *.o
 
-submit: MyCompress.cpp original.txt README.md makefile
-	tar -zcvf MyCompress.tar.gz MyCompress.cpp original.txt README.md makefile
+submit: MyCompress.cpp original.txt compressed.txt decompressed.txt README.md makefile
+	tar -zcvf MyCompress.tar.gz MyCompress.cpp original.txt compressed.txt decompressed.txt README.md makefile
